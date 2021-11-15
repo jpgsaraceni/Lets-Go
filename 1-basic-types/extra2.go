@@ -12,3 +12,5 @@ func main() {
 
 	fmt.Println(age)
 }
+
+// couldn't run this code because The Go Playground doesn't support input
