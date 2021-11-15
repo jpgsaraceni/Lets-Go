@@ -7,10 +7,9 @@ import (
 
 func main() {
 	var yearOfBirth int
+	fmt.Println("Informe o ano de nascimento")
 	fmt.Scan(&yearOfBirth)
 	age := time.Now().Year() - yearOfBirth
 
-	fmt.Println(age)
+	fmt.Printf("Idade: %v\n", age)
 }
-
-// couldn't run this code because The Go Playground doesn't support input

@@ -5,10 +5,12 @@ Course organized by [Women Who Go Curitiba](https://womenwhogocwb.github.io/) av
 ## Running the programs
 
 I used [The Go Playground](https://play.golang.org/) to test my codes.
+With [Go instaled](https://golang.org/dl/) in your machine, you can also enter `go run SOURCE_FILE_NAME` in the terminal.
 
 ## What I've used so far
 
-I'll try to summarize what I learned and practiced during the course:
+Each directory in this repo is a module of the course, containing my notes from the lessons and the activities.
+Here I'll try to summarize other important points asides the content directly in the modules:
 
 ### Package
 
@@ -40,11 +42,7 @@ func main() {
 }
 ```
 
-### Basic Data Types
-
-Numeric types (`int`, `float`, `complex`), character sequences (`string`) and booleans (`bool`).
-
-#### Declaring variables
+### Declaring variables
 
 There are two ways to declare variables in Go: using the reserved word `var`, or the short declaration operator `:=`.
 
@@ -71,7 +69,3 @@ You can declare more than one variables at the same time.
 ```go
 var name, favoriteTeam string = "João", "Fluminense"
 ```
-
-### Composite Data Types
-
-Array, slice, map and struct. Check my notes [here](https://github.com/jpgsaraceni/Lets-Go/2-composite-types)
