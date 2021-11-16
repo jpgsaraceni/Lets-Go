@@ -9,6 +9,8 @@ func DoSomething(number int, anotherNumber int) bool {
 }
 ```
 
+## Pointers
+
 To receive an argument by refference (through a pointer) use * before the parameter type and & before the argument.
 
 ```go
