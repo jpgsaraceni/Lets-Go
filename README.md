@@ -69,3 +69,15 @@ You can declare more than one variables at the same time.
 ```go
 var name, favoriteTeam string = "João", "Fluminense"
 ```
+
+### Pointers
+
+You can pass a reference to a variable (instead of the value, passed by default) using a pointer.
+
+```go
+var someVariable int = "some value"
+var pointer *int = &someVariable // this will access someVariable's address in memory
+// to access someVariable's value using pointer, use * (*pointer) to unreference
+```
+
+If a pointer is declared to a type but no value is passed (), its zero value is `nil`.
