@@ -4,8 +4,8 @@ Course organized by [Women Who Go Curitiba](https://womenwhogocwb.github.io/) av
 
 ## Running the programs
 
-I used [The Go Playground](https://play.golang.org/) to test my codes.
-With [Go instaled](https://golang.org/dl/) in your machine, you can also enter `go run SOURCE_FILE_NAME` in the terminal.
+If you don't have Go installed, you can run these code on [The Go Playground](https://play.golang.org/).
+With [Go instaled](https://golang.org/dl/) in your machine, you can enter `go run SOURCE_FILE_NAME` in the terminal.
 
 ## What I've used so far
 
