@@ -1,6 +1,8 @@
 # My first steps in Golang
 
-Course organized by [Women Who Go Curitiba](https://womenwhogocwb.github.io/) available on [this Gitbook](https://womenwhogocwb.gitbook.io/letsgo/)
+Course organized by [Women Who Go Curitiba](https://womenwhogocwb.github.io/) available on [this Gitbook](https://womenwhogocwb.gitbook.io/letsgo/).
+
+The [Learn-Go-With-Test](https://github.com/jpgsaraceni/Learn-Go-With-Tests) folder contains code from the [Learn Go With Test gitbook](https://quii.gitbook.io/learn-go-with-tests/).
 
 ## Running the programs
 
