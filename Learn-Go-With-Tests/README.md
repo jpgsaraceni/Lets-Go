@@ -54,3 +54,22 @@ assertCorrectMessage := func(t testing.TB, got, want string) { // testing.TB is 
 ## Example
 
 You can add an example function to your _test.go file. It will be executed just like other test functions, and will be added to godoc.
+
+```go
+func ExampleFunctionName() {
+    result := FunctionName("arguments")
+    fmt.Println(result)
+}
+```
+
+## Benchmarks
+
+Benchmarks are also written similarly to tests. They check how long a function takes to run the b.N times and assess if that time is reasonable.
+
+```go
+func BenchmarkFunctionName(b *testing.B) {
+    for i := 0; i < b.N; i++ {
+        FunctionName("arguments")
+    }
+}
+```
