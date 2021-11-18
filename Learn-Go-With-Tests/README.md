@@ -50,3 +50,7 @@ assertCorrectMessage := func(t testing.TB, got, want string) { // testing.TB is 
     }
 }
 ```
+
+## Example
+
+You can add an example function to your _test.go file. It will be executed just like other test functions, and will be added to godoc.
