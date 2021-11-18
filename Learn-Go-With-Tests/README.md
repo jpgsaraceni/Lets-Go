@@ -20,9 +20,9 @@ func TestFunctionName(t *testing.T) { // use TestXxx name format for this functi
 
 ## Running a Test in Go
 
-You need a `go.mod` file in the directory. To create onte, execute `go mode init MODNAME` in your terminal. 
+You need a `go.mod` file in the directory. To create one, execute `go mod init MODNAME` in your terminal.
 
-Enter `go test` in your terminal to run the test. 
+Enter `go test` in your terminal to run the test.
 
 ## TDD
 
