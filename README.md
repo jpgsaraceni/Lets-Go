@@ -16,7 +16,7 @@ Here I'll try to summarize other important points asides the content directly in
 
 ### Package
 
-Every Go file will start with the reserved word `package` followed by the name of the package that is written on your file. 
+Every Go file will start with the reserved word `package` followed by the name of the package that is written on your file.
 
 ```go
 package main
@@ -66,7 +66,7 @@ When using `:=` the type is always inferred and the initial value must be assign
 name := "João"
 ```
 
-You can declare more than one variables at the same time. 
+You can declare more than one variables at the same time.
 
 ```go
 var name, favoriteTeam string = "João", "Fluminense"
@@ -79,7 +79,15 @@ You can pass a reference to a variable (instead of the value, passed by default)
 ```go
 var someVariable int = "some value"
 var pointer *int = &someVariable // this will access someVariable's address in memory
-// to access someVariable's value using pointer, use * (*pointer) to unreference
+// to access someVariable's value using pointer, use * (*pointer) to dereference
 ```
 
 If a pointer is declared to a type but no value is passed (), its zero value is `nil`.
+
+Pointers to structs don't need to be dereferenced, go does this automatically.
+
+```go
+func (s *SomeStruct) SomeMethod() string{
+    return s.content // could be (*s).content but the dereference is inferred.
+}
+```
