@@ -17,5 +17,5 @@ func TestAdder(t *testing.T) {
 func ExampleAdd() {
 	sum := Add(1, 5)
 	fmt.Println(sum)
-	// Output: 6 // adding this code makes the function not execute, only compiled.
+	// Output: 6
 }
